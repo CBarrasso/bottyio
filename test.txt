@@ -1,0 +1,3 @@
+NjA3MDEwNTY5ODYxNzI2MjI4.XUTYuA.H8Ggu-JLTdYe1Zsr_9De4K74VNU
+
+https://discordapp.com/oauth2/authorize?&client_id=NjA3MDEwNTY5ODYxNzI2MjI4.XUTYuA.H8Ggu-JLTdYe1Zsr_9De4K74VNU&scope=bot&permissions=8

@@ -1,0 +1,8 @@
+{
+    "name": "BottyIO",
+    "version": "1.0.0",
+    "description": "BottyIO Supreme",
+    "main": "bot.js",
+    "author": "TeaReks",
+    "dependencies": {}
+}
