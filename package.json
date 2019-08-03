@@ -4,5 +4,7 @@
     "description": "BottyIO Supreme",
     "main": "bot.js",
     "author": "TeaReks",
-    "dependencies": {}
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    }
 }
