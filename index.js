@@ -19,7 +19,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content.startsWith('dkp for')) {
     var user = msg.content.split(" ").slice(-1)[0]
-    console.log(user)
+
     var options = {
       method: 'GET',
       url: 'https://www.mercenary-classic.com/dkp/api.php?function=points',
@@ -39,7 +39,7 @@ client.on('message', msg => {
         var users = result['response']['players'][0]['player']
         found = false
 
-        console.log('USERS: '+JSON.stringify(users));
+
         found = false
         users.forEach(function(value){
           // msg.reply(JSON.stringify(value));
