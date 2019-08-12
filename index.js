@@ -42,7 +42,6 @@ client.on('message', msg => {
 
         found = false
         users.forEach(function(value){
-          // msg.reply(JSON.stringify(value));
           if(value['name'][0]===user){
             dkp = value['points'][0]['multidkp_points'][0]['points_current'][0]
             msg.reply(value['name'][0]+ ' has ' + dkp + ' dkp.')
