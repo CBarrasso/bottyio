@@ -2,9 +2,16 @@
     "name": "BottyIO",
     "version": "1.0.0",
     "description": "BottyIO Supreme",
-    "main": "bot.js",
+    "main": "index.js",
     "author": "TeaReks",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
     "dependencies": {
         "discord.js": "^11.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
     }
 }
